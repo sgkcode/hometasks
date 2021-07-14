@@ -1,6 +1,5 @@
 package javaclasses;
 
-
 public class Student {
     private int id;
     private String lastName;
