@@ -1,9 +1,11 @@
+package aircompany;
+
+import aircompany.models.MilitaryType;
+import aircompany.planes.MilitaryPlane;
+import aircompany.planes.PassengerPlane;
+import aircompany.planes.Plane;
 import java.util.Arrays;
 import java.util.List;
-import models.MilitaryType;
-import planes.MilitaryPlane;
-import planes.PassengerPlane;
-import planes.Plane;
 
 public class Runner {
 
