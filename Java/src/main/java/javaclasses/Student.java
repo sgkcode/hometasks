@@ -1,121 +1,125 @@
 package javaclasses;
 
 public class Student {
-    private int id;
-    private String lastName;
-    private String name;
-    private String patronymic;
-    private String birthday;
-    private String address;
-    private String phone;
-    private Faculty faculty;
-    private int course;
-    private int group;
 
-    public Student() {
-    }
+  private int id;
+  private String lastName;
+  private String name;
+  private String patronymic;
+  private String birthday;
+  private String address;
+  private String phone;
+  private Faculty faculty;
+  private int course;
+  private int group;
 
-    public Student(int id, String lastName, String name, String patronymic, String birthday, String address, String phone, Faculty faculty, int course, int group) {
-        this.id = id;
-        this.lastName = lastName;
-        this.name = name;
-        this.patronymic = patronymic;
-        this.birthday = birthday;
-        this.address = address;
-        this.phone = phone;
-        this.faculty = faculty;
-        this.course = course;
-        this.group = group;
-    }
+  public Student() {
+  }
 
-    public int getId() {
-        return id;
-    }
+  public Student(int id, String lastName, String name, String patronymic, String birthday,
+      String address, String phone, Faculty faculty, int course, int group) {
+    this.id = id;
+    this.lastName = lastName;
+    this.name = name;
+    this.patronymic = patronymic;
+    this.birthday = birthday;
+    this.address = address;
+    this.phone = phone;
+    this.faculty = faculty;
+    this.course = course;
+    this.group = group;
+  }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+  public int getId() {
+    return id;
+  }
 
-    public String getLastName() {
-        return lastName;
-    }
+  public void setId(int id) {
+    this.id = id;
+  }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+  public String getLastName() {
+    return lastName;
+  }
 
-    public String getName() {
-        return name;
-    }
+  public void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+  public String getName() {
+    return name;
+  }
 
-    public String getPatronymic() {
-        return patronymic;
-    }
+  public void setName(String name) {
+    this.name = name;
+  }
 
-    public void setPatronymic(String patronymic) {
-        this.patronymic = patronymic;
-    }
+  public String getPatronymic() {
+    return patronymic;
+  }
 
-    public String getBirthday() {
-        return birthday;
-    }
+  public void setPatronymic(String patronymic) {
+    this.patronymic = patronymic;
+  }
 
-    public void setBirthday(String birthday) {
-        this.birthday = birthday;
-    }
+  public String getBirthday() {
+    return birthday;
+  }
 
-    public String getAddress() {
-        return address;
-    }
+  public void setBirthday(String birthday) {
+    this.birthday = birthday;
+  }
 
-    public void setAddress(String address) {
-        this.address = address;
-    }
+  public String getAddress() {
+    return address;
+  }
 
-    public String getPhone() {
-        return phone;
-    }
+  public void setAddress(String address) {
+    this.address = address;
+  }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
+  public String getPhone() {
+    return phone;
+  }
 
-    public Faculty getFaculty() {
-        return faculty;
-    }
+  public void setPhone(String phone) {
+    this.phone = phone;
+  }
 
-    public void setFaculty(Faculty faculty) {
-        this.faculty = faculty;
-    }
+  public Faculty getFaculty() {
+    return faculty;
+  }
 
-    public int getCourse() {
-        return course;
-    }
+  public void setFaculty(Faculty faculty) {
+    this.faculty = faculty;
+  }
 
-    public void setCourse(int course) {
-        this.course = course;
-    }
+  public int getCourse() {
+    return course;
+  }
 
-    public int getGroup() {
-        return group;
-    }
+  public void setCourse(int course) {
+    this.course = course;
+  }
 
-    public void setGroup(int group) {
-        this.group = group;
-    }
+  public int getGroup() {
+    return group;
+  }
 
-    @Override
-    public String toString() {
-        return lastName + " " + name + " " + patronymic +
-                ", " + birthday +
-                ", Адрес: " + address +
-                ", Телефон: " + phone +
-                ", Факультет: " + faculty +
-                ", Курс: " + course +
-                ", Группа: " + group;
-    }
+  public void setGroup(int group) {
+    this.group = group;
+  }
+
+  @Override
+  public String toString() {
+    return lastName
+        + " " + name
+        + " " + patronymic
+        + ", " + birthday
+        + ", Адрес: " + address
+        + ", Телефон: " + phone
+        + ", Факультет: " + faculty
+        + ", Курс: " + course
+        + ", Группа: " + group;
+  }
 }

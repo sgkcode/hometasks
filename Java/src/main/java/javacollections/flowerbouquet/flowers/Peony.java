@@ -21,7 +21,7 @@ public class Peony extends Flower {
   @Override
   public String toString() {
     return super.toString().replace("{",
-        "{roseVariety=" + peonyVariety +
-            ", ");
+        "{roseVariety=" + peonyVariety
+            + ", ");
   }
 }

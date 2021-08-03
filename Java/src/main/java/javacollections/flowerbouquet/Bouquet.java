@@ -70,9 +70,9 @@ public class Bouquet {
 
   @Override
   public String toString() {
-    return "Bouquet{" +
-        "flowers=" + flowers +
-        ", accessories=" + accessories +
-        '}';
+    return "Bouquet{"
+        + "flowers=" + flowers
+        + ", accessories=" + accessories
+        + '}';
   }
 }

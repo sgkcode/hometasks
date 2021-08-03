@@ -1,35 +1,36 @@
 package javacollections.flowerbouquet.accessories;
 
 public class Accessory {
- private AccessoryType accessoryType;
- private double cost;
 
- public Accessory(AccessoryType accessoryType, double cost) {
-  this.accessoryType = accessoryType;
-  this.cost = cost;
- }
+  private AccessoryType accessoryType;
+  private double cost;
 
- public AccessoryType getAccessoryType() {
-  return accessoryType;
- }
+  public Accessory(AccessoryType accessoryType, double cost) {
+    this.accessoryType = accessoryType;
+    this.cost = cost;
+  }
 
- public void setAccessoryType(AccessoryType accessoryType) {
-  this.accessoryType = accessoryType;
- }
+  public AccessoryType getAccessoryType() {
+    return accessoryType;
+  }
 
- public double getCost() {
-  return cost;
- }
+  public void setAccessoryType(AccessoryType accessoryType) {
+    this.accessoryType = accessoryType;
+  }
 
- public void setCost(double cost) {
-  this.cost = cost;
- }
+  public double getCost() {
+    return cost;
+  }
 
- @Override
- public String toString() {
-  return "Accessory{" +
-      "accessoryType=" + accessoryType +
-      ", cost=" + cost +
-      '}';
- }
+  public void setCost(double cost) {
+    this.cost = cost;
+  }
+
+  @Override
+  public String toString() {
+    return "Accessory{"
+        + "accessoryType=" + accessoryType
+        + ", cost=" + cost
+        + '}';
+  }
 }

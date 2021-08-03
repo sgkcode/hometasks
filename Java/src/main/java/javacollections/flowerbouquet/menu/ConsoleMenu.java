@@ -52,6 +52,7 @@ public class ConsoleMenu {
             break;
           case 6:
             System.exit(0);
+            break;
           default:
             printIncorrectInput();
         }

@@ -34,12 +34,12 @@ public abstract class Plane {
 
   @Override
   public String toString() {
-    return "Plane{" +
-        "model='" + model + '\'' +
-        ", maxSpeed=" + maxSpeed +
-        ", maxFlightDistance=" + maxFlightDistance +
-        ", maxLoadCapacity=" + maxLoadCapacity +
-        '}';
+    return "Plane{"
+        + "model='" + model + '\''
+        + ", maxSpeed=" + maxSpeed
+        + ", maxFlightDistance=" + maxFlightDistance
+        + ", maxLoadCapacity=" + maxLoadCapacity
+        + '}';
   }
 
   @Override
@@ -51,10 +51,10 @@ public abstract class Plane {
       return false;
     }
     Plane plane = (Plane) o;
-    return maxSpeed == plane.maxSpeed &&
-        maxFlightDistance == plane.maxFlightDistance &&
-        maxLoadCapacity == plane.maxLoadCapacity &&
-        Objects.equals(model, plane.model);
+    return maxSpeed == plane.maxSpeed
+        && maxFlightDistance == plane.maxFlightDistance
+        && maxLoadCapacity == plane.maxLoadCapacity
+        && Objects.equals(model, plane.model);
   }
 
   @Override

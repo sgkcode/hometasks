@@ -25,6 +25,7 @@ public class Airport {
         .map(plane -> (PassengerPlane) plane)
         .collect(Collectors.toList());
   }
+
   public PassengerPlane getPassengerPlaneWithMaxPassengersCapacity() {
     return Collections.max(getPassengerPlanes(),
         Comparator.comparingInt(PassengerPlane::getPassengersCapacity));
@@ -81,9 +82,9 @@ public class Airport {
 
   @Override
   public String toString() {
-    return "aircompany.Airport{" +
-        "Planes=" + planes.toString() +
-        '}';
+    return "aircompany.Airport{"
+        + "Planes=" + planes.toString()
+        + '}';
   }
 
   public Airport(List<? extends Plane> planes) {

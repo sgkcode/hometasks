@@ -21,7 +21,7 @@ public class Rose extends Flower {
   @Override
   public String toString() {
     return super.toString().replace("{",
-        "{roseVariety=" + roseVariety +
-            ", ");
+        "{roseVariety=" + roseVariety
+            + ", ");
   }
 }

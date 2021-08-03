@@ -1,6 +1,7 @@
 package javacollections.flowerbouquet.flowers;
 
 public abstract class Flower {
+
   private int stemLength;
   private FreshnessLevel freshnessLevel;
   private double cost;
@@ -37,10 +38,10 @@ public abstract class Flower {
 
   @Override
   public String toString() {
-    return "Flower{" +
-        "stemLength=" + stemLength +
-        ", freshnessLevel=" + freshnessLevel +
-        ", cost=" + cost +
-        '}';
+    return "Flower{"
+        + "stemLength=" + stemLength
+        + ", freshnessLevel=" + freshnessLevel
+        + ", cost=" + cost
+        + '}';
   }
 }
